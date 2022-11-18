@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: #2D3047;
+}
+
+h1{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.input{
+    width: 15rem;
+    padding: .6rem .5rem;
+}
+
+button{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+#boton-agregar {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #1B998B;
+    color: white;
+    border: 1px solid white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-direction: column-reverse
+
+}
+
+.item-input{
+    padding: .4rem .3rem;
+}
